@@ -2,6 +2,19 @@
 	
 
 /* Navigation Section */
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+
+
+body {
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
+}
+
 .top-navigation {
     background-color: #fff;
 }
@@ -9,15 +22,21 @@
     width: 970px;
     height: 70px;
     margin: 0 auto;
+    padding: 0px 15px
 }
 
  .logo {
- 	margin-left: 14px;
- 	height:7 0pv;
+ 	;
+ 	height: 70px;
  }
 
-
-
+ .top-navigation > .links {
+ 	float: right;
+ 	display: inline-block;
+ }
+.top-navigation .links >.active {
+	font-weight: bold;
+}
 
 
 
@@ -39,6 +58,7 @@ a {
 
 
 body{
-background-color: blue;
+background-color: green
+;
 }
 }
