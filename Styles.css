@@ -15,21 +15,39 @@ body {
 	letter-spacing: 0.03em;
 }
 
-.top-navigation {
-    background-color: #fff;
-
-
-}
-.top-navigation > .content {
-    width: 970px;
-    height: 70px;
+ .content {
     margin: 0 auto;
+    width: 960px;
+ }
+
+ 
+
+ .top-navigation {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+
+
+
+
+ .top-navigation > .content {
+    
+    height: 70px;
+    
     padding: 0px 15px;
+    /* this will lay out text from right to left and not allow the margis  display:inline-block;
+    * a width is needed for the margin 0 auto */
+    text-align: center;
+    width: 960px;
+
     
 }
-.content {
 
-}
+
+
 
  .logo {
  
@@ -38,20 +56,25 @@ body {
 
  .top-navigation .links {
     float: right;
+    
+    
+    
     font-family: 'Roboto', sans-serif;
     color: #838994;
     font-size: 16px;
     margin-top: 25px;
     -webkit-font-smoothing: antialiased;
 }
-.top-navigation .links li {
+ .top-navigation .links li {
     display: inline-block;
     margin-left: 25px;
+
+
     
 
  	
  }
-.top-navigation .links .active {
+ .top-navigation .links .active {
 	color: #4c5058;
     font-weight: 500;
     
@@ -62,10 +85,6 @@ body {
    
 }
 
-	a:hover   {color:red; 
- 
-
-}
 <span style="cursor:pointer">pointer</span><br> /* pointing hand */
 
 
@@ -73,7 +92,7 @@ a {
 	text-decoration: none;
 }
 
-
+/*introduction Section*/
 
 .introduction {
     background-image: url("images/first-background copy.jpg");
@@ -106,6 +125,12 @@ a {
     text-align: center;
     font-weight: 300;
  }
+
+ /**
+ * the buttons
+ */
+
+
  
  .big-button {
     
@@ -134,45 +159,36 @@ a {
     background-color:#ff00ff !important;
     cursor: pointer;
 }
-  .icon-area       {
+  
+  .devices {
+    text-align: center;
+  }
 
-        text-align: center;
-        display: inline-block;
-        font-size: 40px;
-        width: 1000px;
-        height: 70px;
-        padding: 0px 15px;
-        margin: 0 auto;
-        color: black;
+
+  
+.devices li {
+    display: inline-block;
+    margin-right: 40px;
+    
 }
 
 
 
-
-}
-
-  .icons {
-    padding:20px;
-    width: 100px;
-    height: 100px;
-   
-   
-}
-
+    
 
  
-
-.caption {
-    display: inline-block;
-    width: 50%;
+.cases  .content h2 {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    margin-top: 10%;
 }
 
- .notes {
-   
-    font-size:  35px;
-    font-weight: 300px;
-    color:black;
 
-}    
+ul {
+    list-style-type: none;
+}
 
+  
+ 
 
