@@ -110,10 +110,7 @@ a {
     font-size: 3.125rem;
 
 }
-.icons li {
-border:solid ;
-color:black;
-}
+
 
 
 
@@ -225,6 +222,5 @@ ul {
     border: 10px;
     border-top-color: blue;
     border-bottom-color: blue;
-    border-radius: 50%;
 }
 
