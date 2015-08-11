@@ -111,8 +111,7 @@ a {
 
 }
 .icons li {
-border:solid ;
-color:black;
+
 }
 
 
@@ -201,30 +200,47 @@ ul {
   }
 
 
- .contact_us li {
-    display:inline-block;
+ .content .icons li {
+    
     padding-right: 25px;
+   
+    width: 40px;
+    border-color: grey;
+    /* height: 100px; */
+    height: 40px;
+    border-radius: 30px;
+    padding: 10px;
+    border-style: solid;
+    color:black;
 
- } 
-
- .contact_us {
-    text-align: center;
  }
- .grey {
-    color:grey;
- }
+.icons  li {
+    display: inline-block;
+  
 
-
-  .footer .content {
-
-   padding-top: 15%;    
   }
 
-.footer .content {
-    border-style: solid;
-    border: 10px;
-    border-top-color: blue;
-    border-bottom-color: blue;
-    border-radius: 50%;
-}
+  .icons {
+    text-align: center;
+  }
+
+    
+
+ .content h3 {
+    text-align: center;
+    margin: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: black;
+
+
+ }
+  .grey {
+    color:grey;
+  }
+
+
+  
+
+
 
