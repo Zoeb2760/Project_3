@@ -111,7 +111,8 @@ a {
 
 }
 .icons li {
-
+border:solid ;
+color:black;
 }
 
 
@@ -200,47 +201,38 @@ ul {
   }
 
 
- .content .icons li {
-    
-    padding-right: 25px;
-   
-    width: 40px;
-    border-color: grey;
-    /* height: 100px; */
-    height: 40px;
-    border-radius: 30px;
-    padding: 10px;
-    border-style: solid;
-    color:black;
-
- }
-.icons  li {
-    display: inline-block;
-  
-
-  }
-
-  .icons {
-    text-align: center;
-  }
-
-    
+ 
 
  .content h3 {
     text-align: center;
-    margin: 25px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: black;
-
-
  }
-  .grey {
+
+ 
+ .grey {
     color:grey;
+    
+ }
+
+
+  .footer .content {
+
+   padding-top: 15%;    
   }
 
+.content .icons {
 
-  
+    
+    text-align: center;
+}
+
+.icons li {
+    display:inline-block;
+    padding:25px;
+    border-style:solid;
+    border-radius: 50%
+    }
 
 
+    
+   
 
